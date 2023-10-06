@@ -1,3 +1,5 @@
+$(document).ready( () => {
+
 function fetchData() {
   $.ajax({
     url: "https://geek-jokes.sameerkumar.website/api?format=json",
@@ -9,3 +11,4 @@ function fetchData() {
 }
 
 $("#btn").click(fetchData);
+})
